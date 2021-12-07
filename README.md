@@ -1,9 +1,12 @@
-# Link to Video Presentation
+# Link to video presentation
 
 # Documentation
 
-## 1. Overview of code
+## 1. Overview of code function
 
+This is a script to make content-based recommendations about companies. The data set is taken from the publicly available descriptions of companies on the site Crunchbase (www.crunchbase.com). This script can be used to explore the top 2000 most popular companies on Crunchbase - it allows the user to designate a few companies they are interested in, and uses that information to make recommendations.
+
+Furthermore, a user can indicate whether the recommendations they are viewing are useful or not, and this information is accounted for when making future recommendations by augmenting the user's preferences.
 
 ## 2. Documentation of implementation
 
@@ -19,7 +22,7 @@ To use, simply invoke `python recommender.py`. There aren't any command-line arg
 
 Not applicable - I was the only person on my team.
 
-# Proposal and Progress Report
+# Proposal and progress report
 
 The project proposal pdf can be found in the file "project_proposal.pdf"
 
