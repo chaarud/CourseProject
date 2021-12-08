@@ -16,7 +16,7 @@ The script itself can be divided into three portions. The first is setup - the m
 
 The second part is the user's setup of their initial preferences. This repeatedly asks the user to input names of companies in the data set/corpus they find interesting (case-sensitive and exact). These are saved to a list, and after the user is finished inputting their initial preferences, the list is transformed into a query document. The contents of the query document are simply the concatenated descriptions of all the initial preferences (which means they'll all contribute equally to the eventual recommendations).
 
-The third part is the actual recommendation loop.
+The third part is the actual recommendation loop. This retrieves a set of metapy recommendations, and iterates over them, suggesting them to the user one by one. It keeps track of past recommendations to ensure that the same thing isn't recommended to a user twice. There is a prompt for the user to indicate if they found a given recommendation interesting - if yes, that company's description will be added to the user's preferences query. This means that future recommendations the script makes will prioritize results similar to the current recommendation as well.
 
 ## 3. Documentation of usage
 
