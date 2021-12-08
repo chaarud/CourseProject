@@ -1,7 +1,6 @@
 import sys
 
 import metapy
-import pytoml
 
 NUM_DOCS = 2000
 
@@ -32,9 +31,6 @@ if __name__ == '__main__':
     cfg = "config.toml"
     idx = metapy.index.make_inverted_index(cfg)
     ranker = metapy.index.OkapiBM25(1.9, 0.75, 200)
-
-    with open(cfg, 'r') as fin:
-        cfg_d = pytoml.load(fin)
 
     query = metapy.index.Document()
 
