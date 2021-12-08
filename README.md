@@ -1,5 +1,9 @@
 # Link to video presentation
 
+The video is unlisted but publicly available on mediaspace:
+
+https://mediaspace.illinois.edu/media/t/1_yrt9j9m8
+
 # Documentation
 
 ## 1. Overview of code function
