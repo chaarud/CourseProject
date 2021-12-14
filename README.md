@@ -34,6 +34,10 @@ The script will ask for companies as initial user preferences. This input is exa
 
 Not applicable - I was the only person on my team.
 
+# Self-Evaluation
+
+As demonstrated in the runthroughs in the linked demo video, I was able to run the system and get recommendations that were similar for discernible reasons (for example, I was recommended companies that were partners, collaborators, or customers of my initial preferences, or I was recommended companies that operated in the same domain/were delivering similar products). I think that is enough to indicate that this recommender system is delivering what it is intended to, at least at a high level.
+
 # Proposal and progress report
 
 The project proposal pdf can be found in the file "project_proposal.pdf"
